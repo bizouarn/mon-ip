@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base /Color-converter-GUI/",
+    "build": "vite build --base /mon-ip/",
     "preview": "vite preview",
     "lint": "npx -y eslint main.js --fix"
   },
