@@ -1,0 +1,17 @@
+{
+  "name": "color-converter-gui",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base /Color-converter-GUI/",
+    "preview": "vite preview",
+    "lint": "npx -y eslint main.js --fix"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
