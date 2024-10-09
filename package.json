@@ -12,6 +12,6 @@
     "node": "20"
   },
   "devDependencies": {
-    "vite": "^5.2.11"
+    "vite": "^5.2.14"
   }
 }
