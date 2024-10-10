@@ -1,13 +1,13 @@
 <!doctype html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Votre IP ...</title><style>body{margin:0;font-family:sans-serif;height:100vh;display:flex;align-items:center;justify-content:center;background:url("/mon-ip/assets/bg-UTR_jZso.jpg");background-size:cover;flex-direction:column;text-align:center}.text{color:#fff;font-size:10vw;font-weight:700;text-transform:uppercase;position:relative;margin:0}</style><script>async function fetchLocalIP() {
-        try {
-            const response = await fetch("https://checkip.amazonaws.com/");
-            const ip = await response.text();
-            document.getElementById('ip').textContent = ip;
-            document.title = `Votre IP: ${ip}`; // Mise à jour du titre avec l'IP.
-        } catch (error) {
-            console.error('Erreur lors de la récupération de l\'IP locale:', error);
-            document.getElementById('ip').textContent = 'Erreur de récupération IP.';
-        }
+      try {
+        const response = await fetch('https://checkip.amazonaws.com/');
+        const ip = await response.text();
+        document.getElementById('ip').textContent = ip;
+        document.title = `Votre IP: ${ip}`; // Mise à jour du titre avec l'IP.
+      } catch (error) {
+        console.error('Erreur lors de la récupération de l\'IP locale:', error);
+        document.getElementById('ip').textContent = 'Erreur de récupération IP.';
+      }
     }
 
     window.onload = fetchLocalIP;</script></head><body><div class="text">VOTRE IP</div><div class="text" id="ip">Chargement de votre IP...</div></body></html>
