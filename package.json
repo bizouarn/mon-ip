@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build --base /mon-ip/",
     "preview": "vite preview",
-    "lint": "npx -y eslint main.js --fix"
+    "lint": "npx -y eslint index.html main.js --fix"
   },
   "engines": {
     "node": "20"
