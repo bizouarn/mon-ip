@@ -9,14 +9,14 @@
     "lint": "npx -y eslint index.html main.js --fix"
   },
   "engines": {
-    "node": "20"
+    "node": ">= 20"
   },
   "devDependencies": {
     "eslint": "^9.12.0",
     "eslint-plugin-html": "^8.1.2",
     "stylelint": "^16.9.0",
     "stylelint-config-standard": "^36.0.1",
-    "vite": "^5.4.14",
+    "vite": "^6.3.5",
     "vite-plugin-html": "^3.2.2"
   }
 }
