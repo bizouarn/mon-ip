@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     # Tâches à effectuer, comme expliquées ci-dessus
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
       # 1. Partie Build
       - name: "Build"
         run: |
-          npm ci
+          npm install
           npm run build
       # 2. Déploiement sur les Github Pages
       - name: "Deploy Github Pages"
